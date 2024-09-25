@@ -2,10 +2,18 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=mailto:seuemail@exemplo.com">
+  <meta http-equiv="refresh" content="0; url=mailto:andressasalesinst@gmail.com">
   <title>Redirecionando...</title>
+  <script type="text/javascript">
+    window.onload = function() {
+      // Tenta fechar a janela após redirecionar
+      setTimeout(function() {
+        window.close();
+      }, 1000); // Aguarda 1 segundo antes de tentar fechar
+    };
+  </script>
 </head>
 <body>
-  <p>Se você não for redirecionado automaticamente, <a href="mailto:seuemail@exemplo.com">clique aqui</a>.</p>
+  <p>Se você não for redirecionado automaticamente, <a href="mailto:andressasalesinst@gmail.com">clique aqui</a>.</p>
 </body>
 </html>
